@@ -3,125 +3,258 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body>
+  <body class="main-body">
     <header>
       <nav>
-        <a href="/">
-          Web Studio
+        <a href="./index.html" class="logo">
+          <span class="part-of-logo">Web</span> Studio
         </a>
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <ul class="list">
+          <li>
+            <a href="./index.html" class="site-nav-link current">Студия</a>
+          </li>
+          <li>
+            <a href="./portfolio.html" class="site-nav-link">Портфолио</a>
+          </li>
+          <li><a href="#" class="site-nav-link">Контакты</a></li>
         </ul>
       </nav>
 
       <div>
-        <a href="info@devstudio.com"></a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <img src="./images/envelope.svg" alt="конверт" />
+        <a href="info@devstudio.com" class="contacts-link"
+          >info@devstudio.com</a
+        >
+        <img src="./images/smartphone.svg" alt="телефон" />
+        <a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a>
       </div>
     </header>
 
     <main>
-      <section>
-        <h1 hidden>примеры работ</h1>
-        <ul>
-          <li><button>Все</button></li>
-          <li><button>Веб-сайты</button></li>
-          <li><button>Приложения</button></li>
-          <li><button>Дизайн</button></li>
-          <li><button>Маркетинг</button></li>
+      <div>
+        <section class="hero">
+          <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+          <button class="button">Заказать услугу</button>
+        </section>
+      </div>
+
+      <section class="section">
+        <h2 class="section--title">преимущества</h2>
+        <ul class="list">
+          <li>
+            <img src="./images/antenna.svg" alt="антенна" />
+            <h3 class="black-title">внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <img src="./images/clock.svg" alt="часы" />
+            <h3 class="black-title">пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <img src="./images/diagram.svg" alt="диаграмма" />
+            <h3 class="black-title">планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <img src="./images/astronaut.svg" alt="астронавт" />
+            <h3 class="black-title">современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
         </ul>
       </section>
 
-      <section>
-        <h1 hidden>все работы</h1>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
-            <a href="">
-              <img src="./images/img1.jpg" alt="" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
-            </a>
+            <img
+              src="./images/ноутбук.jpg"
+              alt="ноутбук"
+              height="294"
+              width="370"
+            />
+            <p class="white-text">декстопные приложения</p>
           </li>
           <li>
-            <a href="">
-              <img src="./images/img2.jpg" alt="" />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
-            </a>
+            <img
+              src="./images/cellphone.jpg"
+              alt="мобильный телефон"
+              height="294"
+              width="370"
+            />
+            <p class="white-text">мобильные приложения</p>
           </li>
           <li>
-            <a href="">
-              <img src="./images/img3.jpg" alt="" />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
-            </a>
+            <img
+              src="./images/img4.jpg"
+              alt="монитор"
+              height="294"
+              width="370"
+            />
+            <p class="white-text">дизайнерские решения</p>
           </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
           <li>
-            <a href="">
-              <img src="./images/img4.jpg" alt="" />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
-            </a>
+            <img
+              src="./images/Николай.jpg"
+              alt="Николай"
+              height="260"
+              width="270"
+            />
+            <h3 class="black-title">Николай Кучеренко</h3>
+            <p>Product Designer</p>
+            <ul class="list">
+              <li>
+                <a href="#"><span>Instagramm</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Twitter</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Facebook</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Linkedin</span></a>
+              </li>
+            </ul>
           </li>
+
           <li>
-            <a href="">
-              <img src="./images/img5.jpg" alt="" />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
-            </a>
+            <img
+              src="./images/Ольга.jpg"
+              alt="Ольга"
+              height="260"
+              width="270"
+            />
+            <h3 class="black-title">Ольга Иванова</h3>
+            <p>Frontend Developer</p>
+            <ul class="list">
+              <li>
+                <a href="#"><span>Instagramm</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Twitter</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Facebook</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Linkedin</span></a>
+              </li>
+            </ul>
           </li>
+
           <li>
-            <a href="">
-              <img src="./images/img6.jpg" alt="" />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
-            </a>
+            <img
+              src="./images/Андрей.jpg"
+              alt="Андрей"
+              height="260"
+              width="270"
+            />
+            <h3 class="black-title">Андрей Шевченко</h3>
+            <p>Marketing</p>
+            <ul class="list">
+              <li>
+                <a href="#"><span>Instagramm</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Twitter</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Facebook</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Linkedin</span></a>
+              </li>
+            </ul>
           </li>
+
           <li>
-            <a href="">
-              <img src="./images/img7.jpg" alt="" />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
-            </a>
+            <img src="./images/Иван.jpg" alt="Иван" height="260" width="270" />
+            <h3 class="black-title">Иван Николаев</h3>
+            <p>UI Designer</p>
+            <ul class="list">
+              <li>
+                <a href="#" target="blank" rel="noopener norefferer"
+                  ><span>Instagramm</span></a
+                >
+              </li>
+              <li>
+                <a href="#" target="blank" rel="noopener norefferer"
+                  ><span>Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="#" target="blank" rel="noopener norefferer"
+                  ><span>Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="#" target="blank" rel="noopener norefferer"
+                  ><span>Linkedin</span></a
+                >
+              </li>
+            </ul>
           </li>
-          <li>
-            <a href="">
-              <img src="./images/img8.jpg" alt="" />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/img9.jpg" alt="" />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
-            </a>
-          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="list">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
         </ul>
       </section>
     </main>
 
     <footer>
       <div>
-        <a href="/">Web Studio</a>
+        <a href="./index.html" class="logo">
+          <span class="part-of-logo">Web</span> Studio
+        </a>
 
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
+        <p class="white-text">г. Киев, пр-т Леси Украинки, 26</p>
 
-        <ul>
-          <li><a href="mail">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="list">
+          <li><a href="mail" class="contacts-link">info@example.com</a></li>
+          <li>
+            <a href="tel:+380991111111" class="contacts-link"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </div>
 
       <div>
-        <b>присоединяйтесь</b>
-        <ul>
+        <b class="white-text">присоединяйтесь</b>
+        <ul class="list">
           <li>
             <a href="#" target="blank" rel="noopener norefferer">Instagramm</a>
           </li>

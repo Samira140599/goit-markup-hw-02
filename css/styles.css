@@ -1,0 +1,55 @@
+.portfolio-body { 
+    color: #212121;
+    background-color: #ffffff;
+}
+.logo {
+    color: #000000;
+}
+.part-of-logo {
+    color:#2196F3 ;
+}
+.list {
+    list-style: none;
+}
+
+
+.main-body {
+     color:#757575 ;
+     background-color: #ffffff;
+}
+.site-nav-link {
+    color: #212121;
+} 
+.site-nav-link:hover, .site-nav-link:focus{
+    color: #2196F3;
+} 
+.site-nav-link.current {
+    color:#2196F3 ;
+    }
+.contacts-link {
+    color:#757575 ;
+} 
+ .contacts-link:hover, .contacts-link:focus {
+     color: #2196F3;
+}
+.section-title{
+    color:#212121 ;
+}
+.hero-title {
+    color: #ffffff;
+}
+.black-title {
+color: #212121;
+}
+.white-text {
+color: #ffffff;
+}
+.button {
+   color: #ffffff;
+   background-color: #2196F3; 
+}
+ /* цвет основного текста #212121
+/* вторичный цвет текста #757575
+/* акцент #2196F3
+/* белый #FFFFFF
+/* контакты футера rgba (255, 255, 255, 0,6)
