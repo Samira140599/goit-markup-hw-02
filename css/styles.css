@@ -1,55 +1,199 @@
-.portfolio-body { 
-    color: #212121;
-    background-color: #ffffff;
+.portfolio-body {
+  color: #212121;
+  background-color: #ffffff;
 }
 .logo {
-    color: #000000;
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 3%;
+  align: Left;
+  vertical-align: Top;
 }
 .part-of-logo {
-    color:#2196F3 ;
+  color: #2196f3;
 }
 .list {
-    list-style: none;
+  list-style: none;
+}
+.examples-button:hover,
+.examples-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.examples-button {
+  font-style: medium;
+  font-size: 16px;
+  line-height: 1.6;
+  line-height: 139%;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+.lorem {
+  color: #ffffff;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 1.55;
+  line-height: 133%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+.porfolio-links {
+  text-decoration: none;
+}
+.porfolio-title {
+  color: #212121;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 2;
+  line-height: 171%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 6%;
+}
+.porfolio-type {
+  fon-style: Regular;
+  font-style: 16px;
+  line-height: 1.2;
+  line-height: 160%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: #757575;
 }
 
-
-.main-body {
-     color:#757575 ;
-     background-color: #ffffff;
+.main-body,
+.portfolio-body {
+  font-family: Roboto, sans-serif;
 }
 .site-nav-link {
-    color: #212121;
-} 
-.site-nav-link:hover, .site-nav-link:focus{
-    color: #2196F3;
-} 
-.site-nav-link.current {
-    color:#2196F3 ;
-    }
-.contacts-link {
-    color:#757575 ;
-} 
- .contacts-link:hover, .contacts-link:focus {
-     color: #2196F3;
+  text-decoration: none;
+  color: #212121;
+  font-family: Roboto;
+  font-style: medium;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 2%;
 }
-.section-title{
-    color:#212121 ;
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: #2196f3;
+}
+.site-nav-link.current {
+  color: #2196f3;
+}
+.contacts-link {
+  text-decoration: none;
+  color: #757575;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 2%;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+.section-title {
+  color: #212121;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 1.17;
+  line-height: 100%;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
 .hero-title {
-    color: #ffffff;
+  font-style: Black;
+  font-size: 44px;
+  line-height: 1.36;
+  line-height: 116%;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 6%;
 }
-.black-title {
-color: #212121;
+.advantages {
+  color: #212121;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
-.white-text {
-color: #ffffff;
+.variants {
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
 .button {
-   color: #ffffff;
-   background-color: #2196F3; 
+  background-color: #2196f3;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 1.9;
+  line-height: 160%;
+  align: Center;
+  vertical-align: Center;
+  letter-spacing: 6%;
 }
- /* цвет основного текста #212121
-/* вторичный цвет текста #757575
-/* акцент #2196F3
-/* белый #FFFFFF
-/* контакты футера rgba (255, 255, 255, 0,6)
+.descriptions {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  line-height: 146%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+
+.names {
+  color: #212121;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 1.2;
+  line-height: 100%;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+.jobs {
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.2;
+  line-height: 100%;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+.adress,
+.join-us,
+.button,
+.variants,
+.hero-title {
+  color: #ffffff;
+}
+.join-us {
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
